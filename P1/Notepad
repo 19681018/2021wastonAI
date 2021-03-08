@@ -1,0 +1,20 @@
+curl -X "POST" "https://iam.cloud.ibm.com/identity/token" \
+     -H 'Accept: application/json' \
+     -H 'Content-Type: application/x-www-form-urlencoded' \
+     --data-urlencode "apikey=apikey" \
+     --data-urlencode "response_type=cloud_iam" \
+     --data-urlencode "grant_type=urn:ibm:params:oauth:grant-type:apikey"
+
+{
+  "apikey": "1wz7vtD0LYVhWo2wT67Z6tEmPy5nNoAOs49HJXfXbUS-",
+  "cos_hmac_keys": {
+    "access_key_id": "6230947d8ee74c2aa77cdbb498609cb8",
+    "secret_access_key": "d258a15bad845bfa9a67943a80f749266f3646e99bd8ebb6"
+  },
+  "endpoints": "https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints",
+  "iam_apikey_description": "Auto-generated for key 6230947d-8ee7-4c2a-a77c-dbb498609cb8",
+  "iam_apikey_name": "서비스 인증 정보-1",
+  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/e7cb6fd64f494ff4be9494a2fa9a59b5::serviceid:ServiceId-42b4c567-8851-4fa8-a6b0-844673a62864",
+  "resource_instance_id": "crn:v1:bluemix:public:cloud-object-storage:global:a/e7cb6fd64f494ff4be9494a2fa9a59b5:7d063bb7-b50e-4b19-b038-d81771a5549e::"
+}
