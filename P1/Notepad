@@ -18,3 +18,7 @@ curl -X "POST" "https://iam.cloud.ibm.com/identity/token" `
   "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/e7cb6fd64f494ff4be9494a2fa9a59b5::serviceid:ServiceId-42b4c567-8851-4fa8-a6b0-844673a62864",
   "resource_instance_id": "crn:v1:bluemix:public:cloud-object-storage:global:a/e7cb6fd64f494ff4be9494a2fa9a59b5:7d063bb7-b50e-4b19-b038-d81771a5549e::"
 }
+
+MacOS imported
+
+
